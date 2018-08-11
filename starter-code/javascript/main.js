@@ -41,8 +41,11 @@ function setSplitBtn() {
 
 }
 
-function setStartBtn() {
-
+btnLeft.onclick = function setStartBtn() {
+        btnLeft.className = "btn stop"
+        btnLeft.innerHTML = "STOP"   
+        btnRight.className ="btn split"
+        btnRight.innerHTML = "SPLIT"  
 }
 
 function setResetBtn() {
